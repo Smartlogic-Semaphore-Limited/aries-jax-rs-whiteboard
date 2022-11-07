@@ -43,7 +43,18 @@
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/aries-jax-rs-whiteboard.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=aries-jax-rs-whiteboard.git</url>
         <tag>org.apache.aries.jax.rs-1.0.1</tag>
-  </scm>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <modules>
         <module>javax.jax.rs-api</module>
