@@ -47,6 +47,17 @@
         <tag>org.apache.aries.jax.rs-1.0.3</tag>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>dav:http://cart:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <modules>
         <module>javax.jax.rs-api</module>
         <module>jax-rs.whiteboard</module>
