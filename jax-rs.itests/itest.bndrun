@@ -34,7 +34,7 @@
 
 #-runtrace: true
 
--runee: JavaSE-1.8
+-runee: JavaSE-11
 -resolve.effective: resolve, active
 
 -runsystemcapabilities: ${native_capability}
