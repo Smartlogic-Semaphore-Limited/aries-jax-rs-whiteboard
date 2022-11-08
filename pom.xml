@@ -31,7 +31,7 @@
     <groupId>org.apache.aries.jax.rs</groupId>
     <artifactId>org.apache.aries.jax.rs</artifactId>
     <name>JAX-RS Integration Project</name>
-    <version>1.0.3</version>
+    <version>1.0.3.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
